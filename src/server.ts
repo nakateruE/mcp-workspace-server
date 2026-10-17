@@ -8,6 +8,9 @@ import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/
 import { bootstrapWorkspace } from "./bootstrap.js";
 import { createSandbox } from "./sandbox.js";
 import { registerTools } from "./tools.js";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
+const execAsync = promisify(execFile);
 
 try { process.loadEnvFile(); } catch { /* no .env file, use real env vars */ }
 

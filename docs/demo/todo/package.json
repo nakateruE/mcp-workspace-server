@@ -1,0 +1,7 @@
+{
+  "name": "todo",
+  "version": "0.1.0",
+  "description": "Small command-line todo app (no dependencies)",
+  "bin": { "todo": "cli.js" },
+  "scripts": { "test": "node --test" }
+}

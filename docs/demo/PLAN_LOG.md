@@ -1,0 +1,12 @@
+# PLAN_LOG (append-only, use append_file)
+- [2026-10-17 --:--] read AGENT_README, PROJECT_STATE, DECISIONS, CHECKPOINTS: workspace is fresh; goal unset, no decisions, no checkpoints yet
+- [2026-10-17 --:--] define goal: blocked, no goal recorded anywhere in the workspace; needs the user to state it
+- [2026-10-17 --:--] set goal: wrote Goal into PROJECT_STATE.md from docs/DEMO_TASK.md (pasted by user)
+- [2026-10-17 --:--] design: appended 4 decisions to DECISIONS.md (CommonJS, JSON store, TODO_FILE env, store/cli split)
+- [2026-10-17 --:--] implement: todo/store.js (add, list, load, save), todo/cli.js (add, list), todo/package.json; not executed yet
+- [2026-10-17 --:--] verify: user ran `node cli.js add "buy milk"` and `list` with a temp TODO_FILE; output correct (Added #1, then [ ] 1. buy milk)
+- [2026-10-17] step: added done(id) to todo/store.js and `done <id>` to todo/cli.js (usage string updated)
+- [2026-10-17] step: wrote 3 tests in todo/test/todo.test.js (add+list, done, unknown/invalid id + ids never reused)
+- [2026-10-17] step: wrote todo/README.md
+- [2026-10-17] step: npm test NOT run - workspace connector has no exec; user must run it
+- [2026-10-17] step: user ran `npm test` in todo/ - 3 pass, 0 fail. Project complete.
