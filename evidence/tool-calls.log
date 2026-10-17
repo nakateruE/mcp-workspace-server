@@ -1,0 +1,46 @@
+﻿[TAILING] Tailing last 200 lines for [mcp-server] process (change the value with --lines option)
+C:\Users\admin\.pm2\logs\mcp-server-error.log last 200 lines:
+C:\Users\admin\.pm2\logs\mcp-server-out.log last 200 lines:
+0|mcp-serv | MCP server listening on :3000/mcp  workspace=C:\Users\admin\Desktop\Jr files\tup 3rd year\CSE2M\mcp-workspace-server\workspace  auth=on
+0|mcp-serv | MCP server listening on :3000/mcp  workspace=C:\Users\admin\Desktop\Jr files\tup 3rd year\CSE2M\mcp-workspace-server\workspace  auth=on
+0|mcp-serv | {"t":"2026-10-17T10:08:39.833Z","method":"tools/call","tool":"read_file","args":["path"]}
+0|mcp-serv | {"t":"2026-10-17T10:08:42.066Z","method":"tools/call","tool":"read_file","args":["path"]}
+0|mcp-serv | {"t":"2026-10-17T10:08:43.989Z","method":"tools/call","tool":"read_file","args":["path"]}
+0|mcp-serv | {"t":"2026-10-17T10:08:47.780Z","method":"tools/call","tool":"list_files","args":["dir"]}
+0|mcp-serv | {"t":"2026-10-17T10:08:52.484Z","method":"tools/call","tool":"list_files","args":[]}
+0|mcp-serv | {"t":"2026-10-17T10:08:56.820Z","method":"tools/call","tool":"str_replace","args":["if_version","new_str","old_str","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:09:00.477Z","method":"tools/call","tool":"append_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:09:05.820Z","method":"tools/call","tool":"append_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:09:10.006Z","method":"tools/call","tool":"write_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:09:13.988Z","method":"tools/call","tool":"write_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:09:18.039Z","method":"tools/call","tool":"write_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:09:20.647Z","method":"tools/call","tool":"write_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:09:23.430Z","method":"tools/call","tool":"append_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:09:27.611Z","method":"tools/call","tool":"write_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:09:30.581Z","method":"tools/call","tool":"str_replace","args":["new_str","old_str","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:09:33.045Z","method":"tools/call","tool":"append_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:09:39.535Z","method":"tools/call","tool":"git_commit","args":["message"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:04.231Z","method":"tools/call","tool":"read_file","args":["path"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:06.775Z","method":"tools/call","tool":"read_file","args":["path"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:09.031Z","method":"tools/call","tool":"read_file","args":["path"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:10.963Z","method":"tools/call","tool":"list_files","args":["dir"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:13.110Z","method":"tools/call","tool":"read_file","args":["path"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:15.003Z","method":"tools/call","tool":"read_file","args":["path"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:17.030Z","method":"tools/call","tool":"read_file","args":["path"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:19.062Z","method":"tools/call","tool":"read_file","args":["path"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:21.155Z","method":"tools/call","tool":"read_file","args":["path"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:25.245Z","method":"tools/call","tool":"str_replace","args":["new_str","old_str","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:30.088Z","method":"tools/call","tool":"str_replace","args":["new_str","old_str","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:32.492Z","method":"tools/call","tool":"str_replace","args":["new_str","old_str","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:35.107Z","method":"tools/call","tool":"str_replace","args":["new_str","old_str","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:40.398Z","method":"tools/call","tool":"write_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:10:45.774Z","method":"tools/call","tool":"write_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:11:18.733Z","method":"tools/call","tool":"append_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:11:22.432Z","method":"tools/call","tool":"append_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:11:27.285Z","method":"tools/call","tool":"write_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:11:30.944Z","method":"tools/call","tool":"str_replace","args":["new_str","old_str","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:11:33.106Z","method":"tools/call","tool":"git_commit","args":["message"]}
+0|mcp-serv | {"t":"2026-10-17T10:12:27.139Z","method":"tools/call","tool":"str_replace","args":["new_str","old_str","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:12:32.042Z","method":"tools/call","tool":"append_file","args":["content","path"]}
+0|mcp-serv | {"t":"2026-10-17T10:12:34.404Z","method":"tools/call","tool":"git_commit","args":["message"]}
+

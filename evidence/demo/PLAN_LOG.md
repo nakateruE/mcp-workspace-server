@@ -1,0 +1,13 @@
+# PLAN_LOG (append-only, use append_file)
+- [2026-10-17 00:00] read AGENT_README.md, PROJECT_STATE.md, DECISIONS.md; no prior checkpoints: ok
+- [2026-10-17 00:01] set goal in PROJECT_STATE.md: done
+- [2026-10-17 00:02] recorded design choices in DECISIONS.md: done
+- [2026-10-17 00:03] wrote todo/src/store.js (JSON load/save): done, untested
+- [2026-10-17 00:04] wrote todo/src/commands.js (add, list, formatList): done, untested
+- [2026-10-17 00:05] wrote todo/bin/todo.js (CLI entry for add/list) and todo/package.json: done, untested
+- [2026-10-17 00:06] wrote CHECKPOINTS/cp-01.md and updated PROJECT_STATE.md: done
+- [2026-10-17] step: read README/STATE/DECISIONS/cp-01 and the todo/ sources
+- [2026-10-17] step: implemented `done <id>` in commands.js and bin/todo.js (usage text updated)
+- [2026-10-17] step: wrote todo/README.md and todo/test/todo.test.js (3 tests)
+- [2026-10-17] step: mirrored todo/ into a sandbox copy (workspace cannot execute code); smoke test OK, `npm test` 3/3 pass
+- [2026-10-17] step: user ran `npm test` in the real workspace on Windows - 3/3 pass; project goal verified

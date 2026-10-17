@@ -1,0 +1,11 @@
+{
+  "name": "todo",
+  "version": "0.1.0",
+  "description": "A tiny CLI todo app with JSON storage",
+  "bin": { "todo": "bin/todo.js" },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
