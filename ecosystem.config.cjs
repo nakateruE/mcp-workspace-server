@@ -1,5 +1,5 @@
 // pm2 keeps BOTH the server and the tunnel alive (and restarts them on crash).
-const domain = "resupply-glamour-snipping.ngrok-free.dev";
+const domain = process.env.NGROK_DOMAIN || "your-domain.ngrok-free.app";
 module.exports = {
   apps: [
     {
