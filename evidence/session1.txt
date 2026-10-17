@@ -1,0 +1,17 @@
+ME: You have a workspace connector. Read AGENT_README.md and follow it exactly.
+Goal: build a Node CLI todo app in todo/ (add, list, done; JSON storage; README; 3 tests).
+In this session: fill in PROJECT_STATE.md (goal), record design choices in DECISIONS.md, implement the add and list commands.
+Log each step in PLAN_LOG.md, then write a checkpoint, update PROJECT_STATE.md, and commit.
+You cannot run code, so say in the checkpoint that the code is untested. Don't ask me questions: make reasonable choices and record them in DECISIONS.md. When you finish, stop.
+
+Used workspace-fs integration, loaded tools
+Session 1 is finished and committed (2661633). The code is untested, because I couldn’t run anything.
+
+AI AGENT: Goal and decisions: I filled in the goal in PROJECT_STATE.md and recorded eight design choices in DECISIONS.md. The main ones are plain Node with no dependencies, node:test for the tests, a todos.json store that TODO_FILE can override, and a separate layer for command logic so it’s testable.
+Code in todo/:
+src/store.js handles JSON load and save. A missing or empty file counts as an empty list, and corrupt JSON raises an error instead of being overwritten.
+src/commands.js has add, list and formatList.
+bin/todo.js is the CLI entry for add and list.
+package.json is also there.
+Checkpoint: CHECKPOINTS/cp-01.md says in its own section that the code is untested, and PLAN_LOG.md logs each step.
+Next: done <id>, the README and the 3 tests.
